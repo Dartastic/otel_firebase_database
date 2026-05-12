@@ -1,0 +1,26 @@
+name: otel_firebase_database
+description: OpenTelemetry instrumentation for `package:firebase_database`
+  (Firebase Realtime Database). Extension methods on DatabaseReference
+  that wrap get/set/update/remove/push/runTransaction with `db.*` spans.
+version: 0.1.0-wip
+repository: https://github.com/Dartastic/otel_firebase_database
+homepage: https://dartastic.io
+
+environment:
+  sdk: ^3.0.0
+  flutter: ">=3.0.0"
+
+dependencies:
+  dartastic_opentelemetry: ^1.1.0-beta.4
+  dartastic_opentelemetry_api: ^1.0.0-beta.6
+  firebase_core: ^3.0.0
+  firebase_database: ^11.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pubspec_parse: ^1.5.0
+  pub_semver: ^2.0.0
+  dart_flutter_team_lints: ^3.5.2
+  flutter_test:
+    sdk: flutter
