@@ -1,4 +1,4 @@
-# dartastic_firebase_database_otel
+# otel_firebase_database
 
 OpenTelemetry instrumentation for
 [`package:firebase_database`](https://pub.dev/packages/firebase_database)

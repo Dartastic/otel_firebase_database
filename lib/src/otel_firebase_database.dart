@@ -7,7 +7,7 @@ import 'package:firebase_database/firebase_database.dart';
 
 import 'firebase_database_suppression.dart';
 
-const _tracerName = 'dartastic_firebase_database_otel';
+const _tracerName = 'otel_firebase_database';
 const _dbSystem = 'firebase_realtime_database';
 
 Tracer _tracer() => OTel.tracerProvider().getTracer(_tracerName);

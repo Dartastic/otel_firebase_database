@@ -3,7 +3,7 @@
 
 import 'dart:async';
 
-const Symbol _suppressKey = #dartastic_firebase_database_otel_suppress;
+const Symbol _suppressKey = #otel_firebase_database_suppress;
 
 bool firebaseDatabaseInstrumentationSuppressed() {
   return Zone.current[_suppressKey] == true;
